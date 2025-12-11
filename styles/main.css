@@ -1,0 +1,29 @@
+html {
+    box-sizing: border-box;
+  }
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+.main-container {
+    margin: 0 auto;
+    width: 90%;
+    height: 800px;
+    border: 1px solid black;
+}
+
+.output-container {
+    margin: 0 auto;
+    width: 90%;
+    height: 20%;
+    border: 1px solid red;
+}
+
+.input-btn-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-btn {
+    width: 20%;
+}
